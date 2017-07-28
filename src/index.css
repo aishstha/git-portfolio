@@ -1,0 +1,17 @@
+/*
+body {
+  margin: 0;
+  padding: 0;
+  font-family:Tahoma, Geneva, sans-serif;
+    background-image: url("black.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+*/
+html { 
+  background: url("black.jpg") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}

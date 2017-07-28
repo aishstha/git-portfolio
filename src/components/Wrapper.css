@@ -1,0 +1,61 @@
+.Wrapper {
+  height: 800px;
+  width: 500px;
+  background: rgba(58, 71, 67, 0.4);
+  padding: 20px;
+  color: azure;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.profile-pic {
+/*  background-image: url("best.jpg");*/
+  border-radius: 2px;
+  height: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  
+  width: 200px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.Username {
+  height: 50px;
+  width: 500px;
+/*  background-color: coral;*/
+  font-size: 30px;
+  color: cornflowerblue;
+}
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+.block {
+  height: 105px;
+  width: 500px;
+  background-color: grey;
+}
+.panel{
+   height: auto;
+  width: 500px;
+  background-color: khaki;
+  color: black;
+    text-align: left;
+}
+
+.following {
+  height: 105px;
+  width: 500px;
+  background-color: brown;
+  float: left;
+}
+
+.square {
+  height: 95px;
+  width: 95px;
+  padding: 5px;
+  margin-left: 45px;
+  float: left;
+  background-color: rgba(0, 0, 0, 0.4);
+}
