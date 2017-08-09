@@ -39,7 +39,7 @@ class Repos extends Component {
         {
           this.state.repos.map(repo => {
             return (
-              <h3 key={repo.id}>{repo.name}</h3>
+              <h3 key={repo.id}> {repo.name}</h3>
             );
           })
         }

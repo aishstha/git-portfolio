@@ -1,7 +1,4 @@
-
 import React, { Component } from 'react';
-
-
 class Block extends Component
   {
     constructor() {
@@ -10,14 +7,11 @@ class Block extends Component
     render()
     {
       return(
-        
         <div className="square">
-        
-        <h3>{this.props.results}<br/>{this.props.desc}</h3>
-        
-        
+        <h3>{this.props.results}
+        <br/> {this.props.desc} 
+       </h3>
       </div>
-        
       )
     }
   }
